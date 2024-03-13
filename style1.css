@@ -1,0 +1,238 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    background-color: rgb(34, 152, 225);
+    width: 1280px;
+    height: 60px;
+}
+
+
+.box {
+    color: rgb(0, 0, 0);
+    background-color: rgb(38, 116, 212);
+    height: 60px;
+    animation-name: harshil;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+}
+
+@keyframes harshil {
+    from {
+        width: 0px;
+    }
+
+    to {
+        width: 1280px;
+    }
+
+}
+
+.nav {
+    display: flex;
+    width: 750px;
+
+}
+
+.nav img {
+    cursor: pointer;
+    width: 70px;
+    height: 60px;
+    mix-blend-mode: multiply;
+    filter: contrast(1)
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+    text-align: center;
+    float: right;
+    font-size: 40px;
+}
+
+.main {
+    background-color: WHITE;
+}
+
+.main h2 {
+    text-align: center;
+}
+
+.main img {
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+
+}
+
+.brands {
+    margin-left: 2%;
+    font-style: oblique;
+}
+
+.uspolo {
+    text-decoration: none;
+    cursor: pointer;
+    position: absolute;
+    top: 130%;
+    left: 12%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    width: 15%;
+    height: 250px;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 15px;
+    margin: 1px;
+    text-align: center;
+    overflow-y: scroll;
+
+}
+
+.uspolo a {
+    height: 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.uspolo :hover {
+    font-size: 30px;
+
+}
+
+.uspolo img {
+    margin-top: 10px;
+    height: 200px;
+    width: 180px;
+}
+
+.line {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 1px;
+
+}
+
+
+.levis {
+    text-decoration: none;
+    cursor: pointer;
+    position: absolute;
+    top: 130%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    width: 15%;
+    height: 250px;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 15px;
+    margin: 1px;
+    text-align: center;
+    overflow-y: scroll;
+
+}
+
+.levis a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.levis:hover {
+    font-size: 30px;
+
+}
+
+.levis img {
+    margin-top: 10px;
+    height: 200px;
+    width: 180px;
+}
+
+.line {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 1px;
+
+}
+
+.puma {
+    text-decoration: none;
+    cursor: pointer;
+    position: absolute;
+    top: 130%;
+    left: 62%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    width: 15%;
+    height: 250px;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 15px;
+    margin: 1px;
+    text-align: center;
+    overflow-y: scroll;
+
+}
+
+.puma a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.puma:hover {
+    font-size: 30px;
+
+}
+
+.puma img {
+    margin-top: 10px;
+    height: 200px;
+    width: 180px;
+}
+
+.line {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 1px;
+
+}
+
+.nike {
+    text-decoration: none;
+    cursor: pointer;
+    position: absolute;
+    top: 130%;
+    left: 87%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    width: 15%;
+    height: 250px;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 15px;
+    margin: 1px;
+    text-align: center;
+    overflow-y: scroll;
+
+}
+
+.nike a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.nike:hover {
+    font-size: 30px;
+
+}
+
+.nike img {
+    margin-top: 10px;
+    height: 200px;
+    width: 180px;
+}
+
+.line {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 1px;
+
+}

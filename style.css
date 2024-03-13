@@ -1,0 +1,320 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    background-color: rgb(34, 152, 225);
+    width: 1263px;
+    height: 60px;
+}
+
+
+.box {
+    color: rgb(0, 0, 0);
+    background-color: rgb(38, 116, 212);
+    height: 60px;
+    animation-name: harshil;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+}
+
+@keyframes harshil {
+    from {
+        width: 0px;
+    }
+
+    to {
+        width: 1280px;
+    }
+
+}
+
+.nav {
+    display: flex;
+    width: 700px;
+
+}
+
+.nav img {
+    width: 45px;
+    height: 60px;
+    mix-blend-mode: multiply;
+    filter: contrast(1)
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+    float: center;
+}
+
+.nav a::after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: skyblue;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.3s ease;
+}
+
+
+.nav a:hover::after {
+    transform: scaleX(1);
+}
+
+
+
+.main-container {
+    position: relative;
+    text-align: center;
+    color: white;
+    background-color: skyblue;
+
+}
+
+.main-container img {
+    width: 100%;
+}
+
+.main-container .btn {
+
+    position: absolute;
+    top: 28%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: hsl(240, 4%, 95%);
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    padding: 12px 24px;
+    border: 10 blue;
+    cursor: pointer;
+    border-radius: 1px;
+    text-align: center;
+    transition: 0.5s;
+
+}
+
+.main-container .btn a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn:hover {
+    background-color: hsl(190, 75%, 70%);
+    border-color: aqua;
+
+}
+
+.main-container .btn1 {
+    position: absolute;
+    top: 28%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: hsl(190, 75%, 70%);
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    padding: 12px 24px;
+    border: 10 aqua;
+    cursor: pointer;
+    border-radius: 1px;
+    text-align: center;
+
+}
+
+.btn1:hover {
+    background-color: white;
+    border-color: aliceblue;
+}
+
+.center {
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-style: italic;
+}
+
+.center1 {
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-style: italic;
+}
+
+
+
+.man {
+    text-decoration: none;
+    cursor: pointer;
+    position: absolute;
+    top: 60%;
+    left: 12%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    width: 15%;
+    height: 250px;
+    border: 2px solid rgb(250, 250, 250);
+    padding: 15px;
+    margin: 1px;
+    text-align: center;
+    overflow-y: scroll;
+
+}
+
+.man a {
+    color: rgb(255, 255, 255);
+}
+
+.man :hover {
+    font-size: 30px;
+    transition: 0.5s;
+    filter: drop-shadow(10px 10px 50px rgb(11, 46, 222));
+
+
+}
+
+.man img {
+    margin-top: 10px;
+    height: 200px;
+    width: 180px;
+
+}
+
+.line {
+    border: 1px solid rgb(255, 250, 250);
+    padding: 1px;
+
+}
+
+.kids {
+    cursor: pointer;
+    position: absolute;
+    top: 60%;
+    left: 37%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    width: 15%;
+    height: 250px;
+    border: 2px solid rgb(250, 250, 250);
+    padding: 15px;
+    margin: 1px;
+    text-align: center;
+    overflow-y: scroll;
+}
+
+.kids :hover {
+    font-size: 30px;
+    transition: 0.5s;
+    filter: drop-shadow(10px 10px 50px rgb(111, 205, 234));
+}
+
+
+.kids img {
+    margin-top: 10px;
+    height: 200px;
+    width: 180px;
+
+
+}
+
+.line2 {
+    border: 1px solid rgb(255, 250, 250);
+    padding: 1px;
+}
+
+.women {
+    cursor: pointer;
+    position: absolute;
+    top: 60%;
+    left: 63%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    width: 15%;
+    height: 250px;
+    border: 2px solid rgb(250, 250, 250);
+    padding: 15px;
+    margin: 1px;
+    text-align: center;
+    overflow-y: scroll;
+}
+
+.women :hover {
+    font-size: 30px;
+    transition: 0.5s;
+    filter: drop-shadow(10px 10px 50px rgb(224, 21, 228));
+}
+
+
+.women img {
+    margin-top: 10px;
+    height: 200px;
+    width: 180px;
+}
+
+.Accessory {
+    cursor: pointer;
+    position: absolute;
+    top: 60%;
+    left: 87%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    width: 15%;
+    height: 250px;
+    border: 2px solid rgb(250, 250, 250);
+    padding: 15px;
+    margin: 1px;
+    text-align: center;
+    overflow-y: scroll;
+}
+
+.Accessory:hover {
+    font-size: 25px;
+    transition: 0.5s;
+    filter: drop-shadow(10px 10px 50px rgb(216, 219, 20));
+}
+
+
+.Accessory img {
+    margin-top: 10px;
+    height: 200px;
+    width: 180px;
+}
+
+.line3 {
+    border: 1px solid rgb(255, 250, 250);
+    padding: 1px;
+
+}
+
+
+.tag {
+    position: absolute;
+    top: 95%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+}
+
+.space {
+    height: 10px;
+}
+
+
+
+
+.footer {
+    background-color: rgb(160, 196, 239);
+}
